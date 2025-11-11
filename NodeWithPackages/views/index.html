@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Express Tutorial</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      color: #2f3640;
+      font-size: 2.5rem;
+    }
+    p {
+      color: #353b48;
+      font-size: 1.1rem;
+    }
+    .button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #273c75;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background: #40739e;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Express Tutorial 🚀</h1>
+  <p>This page is served using an Express.js server.</p>
+  <button class="button" onclick="sayHello()">Click Me</button>
+
+  <script>
+    function sayHello() {
+      alert("Hello from Express!");
+    }
+  </script>
+</body>
+</html>

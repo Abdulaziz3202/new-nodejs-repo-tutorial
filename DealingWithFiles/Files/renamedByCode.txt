@@ -1,0 +1,3 @@
+This text added to FileAddedByCode file by code
+ 
+ added text to existing file by append function
